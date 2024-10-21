@@ -1,64 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="iso-8859-1">
-  <title>FM PUERTO VIEJO 91.5</title>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="/inc/tinymce/tiny_mce.js"></script>
-  <style>
-    body {
-      background-image: url('https://i.postimg.cc/zGNF3djq/449217683-1807427823395976-5351199727574542858-n.jpg');
-      background-size: cover;
-      color: white;
-      padding: 10px;
-      margin: 0 auto;
-    }
-    .login-box {
-      float: none;
-      margin: 0 auto;
-      padding-top: 100px;
-    }
-    .texto_padrao_destaque {
-      font-weight: bold;
-    }
-    .texto_padrao_pequeno {
-      font-size: 11px;
-    }
-    .form-control {
-      width: 70% !important;
-    }
-  </style>
-</head>
-<body>
-<div class="col-md-12">
-  <div class="panel">
-    <div class="panel-body">
-      <center>
-        <img src="https://i.postimg.cc/cCQdH4x1/logo-radio.png" alt="Logo FM PUERTO VIEJO 91.5" width="150" height="150"><br><br>
-        <iframe src="https://stream.zeno.fm/lsmgt6vhdxruv" style="width:300px; height:490px" frameborder="0" scrolling="no"></iframe><br><br>
-        <a href="/app/134651b662245bea" target="_blank" style="padding-right: 10px">
-          <img src="/img/img-instalar-app-android.png" width="150" height="48">
-        </a>
-        <a href="/app/134651b662245bea" target="_blank" style="padding-right: 10px">
-          <img src="/img/img-instalar-app-iphone.png" width="150" height="48">
-        </a>
-        <a href="/app/134651b662245bea" target="_blank">
-          <img src="/img/img-instalar-app-windows.png" width="150" height="48">
-        </a>
-      </center>
-    </div>
-  </div>
-</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://extassisnetwork.com/player/Luna/luna.js"></script>
+<div id="extassisnetwork" style="width:360px; height:450px; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-image: url('https://i.postimg.cc/qBF1JdzK/449217683-1807427823395976-5351199727574542858-n.jpg'); background-size: cover;"></div>
+<script>
+  $("#extassisnetwork").lunaradio({
+    streamurl: "https://stream.zeno.fm/lsmgt6vhdxruv",
+    radioname: "FM PUERTO VIEJO 91.5",
+    coverimage: "https://i.postimg.cc/hvNspVHs/logo-radio.png",
+    onlycoverimage: false,
+    userinterface: "big",
+    backgroundcolor: "#ffffff",
+    fontcolor: "#000000",
+    hightlightcolor: "#969696",
+    fontname: "Be Vietnam",
+    googlefont: "Be Vietnam",
+    fontratio: "0.4",
+    scroll: "true",
+    coverstyle: "animated",
+    usevisualizer: "real",
+    visualizertype: "6",
+    streamtype: "shoutcast2",
+    shoutcastpath: "/stream",
+    shoutcastid: "1",
+    metadatainterval: "5000",
+    volume: "100",
+    usestreamcorsproxy: "true",
+  });
+</script>
 
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
-
-</body>
-</html>
